@@ -13,9 +13,10 @@ btnLista.addEventListener("click", function () {
   
     console.log(somma);
 
-   
-            somma+= singNum;
+    somma+= singNum;
+    const finalNumb = document.querySelector("[id=risultato]");
+    finalNumb.innerHTML = ( somma )
     }
-
+   
 
 })
